@@ -19,6 +19,10 @@ public class LuckyTicket {
         return ticket;
     }
 
+    /**
+     * general method in app
+     * @param args
+     */
     public static void main(String[] args) {
         long count = 0;
         LuckyIterator iterator = new LuckyIterator();
